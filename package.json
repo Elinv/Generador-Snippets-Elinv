@@ -1,0 +1,49 @@
+{
+	"name": "generador-snippet",
+	"displayName": "generador_snippet",
+	"description": "Generador automático de snippets Elinv",
+	"version": "0.0.1",
+	"publisher": "elinv",
+	"engines": {
+		"vscode": "^1.31.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.gensnippetelinv"
+	],
+	"main": "./src/extension.js",
+	"contributes": {
+		"commands": [
+			{
+            "command": "extension.gensnippetelinv",
+            "key": "ctrl+shift+r",
+            "title": "Generador de Snippets Elinv",
+				"icon": {
+					"light": "./ico/snippet.jpg",
+					"dark": "./ico/snippet.jpg"
+				}            
+			}         
+		],
+      "keybindings": [
+          {
+              "command": "extension.gensnippetelinv",
+              "key": "ctrl+alt+g",
+              "mac": "shift+cmd+g",
+              "when": "editorTextFocus"
+          }
+      ]
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^3.3.1",
+		"vscode": "^1.1.28",
+		"eslint": "^5.13.0",
+		"@types/node": "^10.12.21",
+		"@types/mocha": "^2.2.42"
+	}
+}
