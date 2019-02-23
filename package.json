@@ -2,7 +2,7 @@
 	"name": "generador-snippet",
 	"displayName": "generador_snippet",
 	"description": "Generador automático de snippets Elinv",
-	"icon": "./ico/Elinv-128x128.png",
+	"icon": "ico/elinv128.png",
 	"version": "0.0.1",
 	"publisher": "elinv",
 	"engines": {
@@ -26,8 +26,8 @@
 			"key": "ctrl+shift+r",
 			"title": "Generador de Snippets Elinv",
 			"icon": {
-				"light": "./ico/snippet.jpg",
-				"dark": "./ico/snippet.jpg"
+				"light": "ico/snippet.jpg",
+				"dark": "ico/snippet.jpg"
 			}
 		}
 	],
