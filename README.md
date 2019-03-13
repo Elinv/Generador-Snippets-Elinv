@@ -1,4 +1,4 @@
-# Generador-Snippets-Elinv
+# Generador-Snippets-Elinv @ 2019
 - 
 	Extensión de Visual Studio Code, 
  	que facilita la creación de Fragmentos de Códigos de Usuario.
